@@ -1,6 +1,6 @@
 task taskX << {
 println "Excute taskX"
 }
-task taskZ(dependsOn: taskX) << {
-println "Excute taskZ"
+task taskA(dependsOn: taskX) << {
+println "Excute taskA"
 }
